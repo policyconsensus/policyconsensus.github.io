@@ -152,12 +152,125 @@
     </div>
   </section>
 
+<!-- Value Proposition -->
+<section class="section" style="background-color: #fafafa; padding: 3rem 1.5rem;">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-10">
+        <div class="columns is-multiline">
+          <div class="column is-4">
+            <div style="background: white; padding: 2rem 1.5rem; border-radius: 6px; height: 100%; border-left: 3px solid #4A90E2;">
+              <h3 class="title is-6" style="margin-bottom: 0.75rem; color: #4A90E2; font-weight: 600;">
+                Retains Sparse But Important Signals
+              </h3>
+              <p style="font-size: 0.95rem; line-height: 1.6; color: #666;">
+                Each modality has its own expert that processes its inputs independently, preventing vision from dominating critical tactile information in contact-rich tasks
+              </p>
+            </div>
+          </div>
+          <div class="column is-4">
+            <div style="background: white; padding: 2rem 1.5rem; border-radius: 6px; height: 100%; border-left: 3px solid #50C878;">
+              <h3 class="title is-6" style="margin-bottom: 0.75rem; color: #50C878; font-weight: 600;">
+                Modular Design for Incremental Learning
+              </h3>
+              <p style="font-size: 0.95rem; line-height: 1.6; color: #666;">
+                Train modality-specific policies independently and compose them without retraining the entire system
+              </p>
+            </div>
+          </div>
+          <div class="column is-4">
+            <div style="background: white; padding: 2rem 1.5rem; border-radius: 6px; height: 100%; border-left: 3px solid #E67E22;">
+              <h3 class="title is-6" style="margin-bottom: 0.75rem; color: #E67E22; font-weight: 600;">
+                Robust to Corruption & Perturbations
+              </h3>
+              <p style="font-size: 0.95rem; line-height: 1.6; color: #666;">
+                Maintains performance under sensor corruption, occlusions, and physical perturbations during execution
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Advantage: Why This Approach -->
+<section class="section" style="background-color: white; padding: 3rem 1.5rem; border-top: 1px solid #e0e0e0;">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-10">
+        <h2 class="title is-3 has-text-centered" style="margin-bottom: 2rem; color: #333;">
+          Why This Approach?
+        </h2>
+        <div class="columns">
+          <div class="column is-6">
+            <div style="background: #fef5f5; padding: 1.5rem; border-radius: 6px; border-left: 3px solid #d32f2f;">
+              <h3 style="font-size: 1rem; font-weight: 600; color: #d32f2f; margin-bottom: 0.75rem;">Feature Concatenation (Traditional)</h3>
+              <ul style="margin: 0; padding-left: 1.25rem; color: #666; font-size: 0.9rem; line-height: 1.6;">
+                <li>Vision dominates sparse tactile signals</li>
+                <li>Monolithic training—must retrain everything when adding sensors</li>
+                <li>Single point of failure</li>
+              </ul>
+            </div>
+          </div>
+          <div class="column is-6">
+            <div style="background: #f1f8f4; padding: 1.5rem; border-radius: 6px; border-left: 3px solid #2e7d32;">
+              <h3 style="font-size: 1rem; font-weight: 600; color: #2e7d32; margin-bottom: 0.75rem;">Policy Consensus (Ours)</h3>
+              <ul style="margin: 0; padding-left: 1.25rem; color: #666; font-size: 0.9rem; line-height: 1.6;">
+                <li>Each expert preserves its modality's information</li>
+                <li>Modular—compose independently trained policies</li>
+                <li>Graceful degradation under sensor failures</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Benefits: What You Gain -->
+<section class="section" style="background-color: #fafafa; padding: 3rem 1.5rem;">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-10">
+        <h2 class="title is-3 has-text-centered" style="margin-bottom: 2rem; color: #333;">
+          What You Gain
+        </h2>
+        <div class="columns is-multiline">
+          <div class="column is-4 has-text-centered">
+            <div style="padding: 1.5rem;">
+              <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">⏱️</div>
+              <h3 style="font-size: 1rem; font-weight: 600; color: #333; margin-bottom: 0.5rem;">Faster Iteration</h3>
+              <p style="font-size: 0.875rem; color: #666; line-height: 1.5;">Add new sensors without retraining from scratch—save days of compute time</p>
+            </div>
+          </div>
+          <div class="column is-4 has-text-centered">
+            <div style="padding: 1.5rem;">
+              <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🎯</div>
+              <h3 style="font-size: 1rem; font-weight: 600; color: #333; margin-bottom: 0.5rem;">Better Performance</h3>
+              <p style="font-size: 0.875rem; color: #666; line-height: 1.5;">Significantly outperforms feature concatenation baselines on multimodal manipulation tasks</p>
+            </div>
+          </div>
+          <div class="column is-4 has-text-centered">
+            <div style="padding: 1.5rem;">
+              <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🛡️</div>
+              <h3 style="font-size: 1rem; font-weight: 600; color: #333; margin-bottom: 0.5rem;">Real-World Robustness</h3>
+              <p style="font-size: 0.875rem; color: #666; line-height: 1.5;">Continues working under sensor corruption and environmental perturbations</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section" id="audio-summary">
   <div class="container is-max-widescreen">
     <div style="
       background: #f9f9f9;
       border: 1px solid #ddd;
-      border-radius: 10px;
+      border-radius: 6px;
       padding: 2rem 2.5rem;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
       max-width: 900px;
@@ -196,40 +309,36 @@
   </div>
 </section>
 
-<section class="section" id="media-coverage">
-  <div class="columns is-centered has-text-centered is-align-items-center">
-    <h2 class="title is-3">Media Coverage</h2>
-  </div>
+<!-- Media Coverage & Videos -->
+<section class="section" style="background-color: white; padding: 3rem 1.5rem; border-top: 1px solid #e0e0e0;">
   <div class="container">
-    <div class="columns is-centered has-text-centered is-align-items-center">
-      <div class="column content">
+    <h2 class="title is-3 has-text-centered" style="margin-bottom: 2rem; color: #333;">Media Coverage & Demos</h2>
+
+    <!-- IEEE Spectrum -->
+    <div class="columns is-centered has-text-centered" style="margin-bottom: 3rem;">
+      <div class="column is-8">
         <a href="https://spectrum.ieee.org/video-friday-multimode-drone" target="_blank">
-          <img src="static/images/IEEESpectrum-Logo.jpg" alt="IEEE Spectrum" style="max-width: 400px; height: auto;">
+          <img src="static/images/IEEESpectrum-Logo.jpg" alt="Featured in IEEE Spectrum" style="max-width: 300px; height: auto;">
         </a>
       </div>
     </div>
-  </div>
-</section>
 
-<section class="section">
-  <div class="container is-max-widescreen">
-    <div class="has-text-centered" style="margin-bottom: 3rem;">
-      <h2 class="title is-3">Teaser Video</h2>
-      <div style="display: flex; justify-content: center; margin: 0 auto;">
+    <!-- Videos -->
+    <div class="columns is-multiline">
+      <div class="column is-6 has-text-centered">
+        <h3 class="title is-5" style="margin-bottom: 1rem; color: #333;">Teaser Video</h3>
         <iframe
           src="https://www.youtube.com/embed/mU3_YXrMrWE"
-          style="width: 70%; height: 450px; border: none;"
+          style="width: 100%; height: 350px; border: none; border-radius: 6px;"
           allow="autoplay; encrypted-media"
           allowfullscreen>
         </iframe>
       </div>
-    </div>
-    <div class="has-text-centered">
-      <h2 class="title is-3">Technical Video</h2>
-      <div style="display: flex; justify-content: center; margin: 0 auto;">
+      <div class="column is-6 has-text-centered">
+        <h3 class="title is-5" style="margin-bottom: 1rem; color: #333;">Technical Video</h3>
         <iframe
           src="https://www.youtube.com/embed/gT_zpOjZPxc"
-          style="width: 70%; height: 450px; border: none;"
+          style="width: 100%; height: 350px; border: none; border-radius: 6px;"
           allow="autoplay; encrypted-media"
           allowfullscreen>
         </iframe>
@@ -240,22 +349,7 @@
 
 <section class="section">
   <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-three-quarters">
-        <h2 class="title is-2" style="text-align: center; margin-bottom: 2rem;">Abstract</h2>
-        <div class="content has-text-justified" style="background-color: #f9f9f9; padding: 2rem; border-radius: 10px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
-          <p class="abstract-text" style="font-size: 1.05rem; line-height: 1.8; color: #333;">
-            Effectively integrating diverse sensory representations is crucial for robust robotic manipulation. However, the typical approach of feature concatenation is often suboptimal: dominant modalities such as vision can overwhelm sparse but critical signals like touch in contact-rich tasks, and monolithic architectures cannot flexibly incorporate new or missing modalities without retraining. Our method factorizes the policy into a set of diffusion models, each specialized for a single representation (e.g., vision or touch), and employs a router network that learns consensus weights to adaptively combine their contributions, enabling incremental integration of new representations. We evaluate our approach on real-world tasks such as occluded object picking, in-hand spoon reorientation, and puzzle insertion, as well as simulated manipulation tasks in RLBench, where it significantly outperforms feature-concatenation baselines on scenarios requiring multimodal reasoning. Our policy further demonstrates robustness to physical perturbations and sensor corruption. We further conduct perturbation-based importance analysis, which reveals adaptive shifts between modalities, for example transitioning from vision to multi-model when entering occluded spaces.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <h2 class="title is-2" style="text-align: center; margin-bottom: 0.5rem;">Is Feature Concatenation the Policy Bottleneck?</h2>
+    <h2 class="title is-3" style="text-align: center; margin-bottom: 0.5rem; color: #333;">Is Feature Concatenation the Policy Bottleneck?</h2>
     <p class="subtitle is-5 has-text-centered" style="color: #666; margin-bottom: 2.5rem; margin-top: 0;">Feature concatenation baseline vs. factorized MoE fusion vs. ours</p>
     <div class="columns is-centered">
       <div class="column is-8 has-text-centered">
@@ -267,7 +361,7 @@
 
 <section class="section">
   <div class="container">
-    <h2 class="title is-2" style="text-align: center; margin-bottom: 0.5rem;">Modality Importance Analysis</h2>
+    <h2 class="title is-3" style="text-align: center; margin-bottom: 0.5rem; color: #333;">Modality Importance Analysis</h2>
     <p class="subtitle is-5 has-text-centered" style="color: #666; margin-bottom: 2.5rem; margin-top: 0;">Perturbation-based analysis reveals dynamic shifts between modalities across task stages</p>
     <div class="columns is-centered">
       <div class="column is-half is-centered has-text-centered">
@@ -282,7 +376,7 @@
 
 <section class="section">
   <div class="container">
-    <h2 class="title is-2 has-text-centered" style="margin-bottom: 0.5rem;">
+    <h2 class="title is-3 has-text-centered" style="margin-bottom: 0.5rem; color: #333;">
       Policy Adaptiveness Under Perturbations
     </h2>
     <p class="subtitle is-5 has-text-centered" style="color: #666; margin-bottom: 2.5rem; margin-top: 0;">
@@ -351,7 +445,7 @@
 
 <section class="section">
   <div class="container">
-    <h2 class="title is-2 has-text-centered" style="margin-bottom: 0.5rem;">
+    <h2 class="title is-3 has-text-centered" style="margin-bottom: 0.5rem; color: #333;">
       Modular Policy Composition
     </h2>
     <p class="subtitle is-5 has-text-centered" style="color: #666; margin-bottom: 2.5rem; margin-top: 0;">
@@ -384,7 +478,7 @@
 
 <section class="section">
   <div class="container">
-    <h2 class="title is-2 has-text-centered" style="margin-bottom: 0.5rem;">
+    <h2 class="title is-3 has-text-centered" style="margin-bottom: 0.5rem; color: #333;">
       Limitations and Failure Cases
     </h2>
     <p class="subtitle is-5 has-text-centered" style="color: #666; margin-bottom: 2.5rem; margin-top: 0;">
@@ -415,9 +509,39 @@
   </div>
 </section>
 
+<!-- Call to Action Section -->
+<section class="section" style="background-color: #f5f5f5; padding: 4rem 1.5rem; border-top: 1px solid #e0e0e0;">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8 has-text-centered">
+        <h2 class="title is-3" style="margin-bottom: 1.5rem; color: #333;">
+          Explore Our Work
+        </h2>
+        <p style="font-size: 1rem; line-height: 1.6; margin-bottom: 2rem; color: #666;">
+          Access our code, dataset, and documentation. 
+        </p>
+        <div class="buttons is-centered" style="flex-wrap: wrap; gap: 0.75rem;">
+          <a href="https://github.com/policyconsensus/policyconsensus" target="_blank" class="button is-medium" style="font-weight: 500; border-radius: 4px; border: 1px solid #333; background: white; color: #333;">
+            <span class="icon"><i class="fab fa-github"></i></span>
+            <span>Code</span>
+          </a>
+          <a href="https://huggingface.co/datasets/haonan-chen/policy-consensus/tree/main" target="_blank" class="button is-medium" style="font-weight: 500; border-radius: 4px; border: 1px solid #333; background: white; color: #333;">
+            <span class="icon"><i class="fas fa-database"></i></span>
+            <span>Dataset</span>
+          </a>
+          <a href="https://arxiv.org/abs/2509.23468" target="_blank" class="button is-medium" style="font-weight: 500; border-radius: 4px; border: 1px solid #333; background: white; color: #333;">
+            <span class="icon"><i class="ai ai-arxiv"></i></span>
+            <span>Paper</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section" id="citation">
   <div class="container">
-    <h2 class="title is-2" style="text-align: center;">BibTeX</h2>
+    <h2 class="title is-3" style="text-align: center; color: #333;">BibTeX</h2>
 
     <div style="
       background-color: #f7f7f7;
